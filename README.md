@@ -18,6 +18,7 @@ Antes de ejecutar el programa, asegúrate de tener instalado Python 3 y las sigu
 pip install tkinter
 pip install networkx
 pip install matplotlib
+```
 
 ## 🚀 Cómo usarlo
 
@@ -26,3 +27,4 @@ pip install matplotlib
 ```bash
 git clone https://github.com/juancruzosorio/Programa.git
 cd Programa
+```
