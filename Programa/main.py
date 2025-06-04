@@ -19,7 +19,7 @@ class main():
         boton_g=Tk.Button(self.v, text='Ver grafo', command=lambda: self.Grafo()); boton_g.pack(pady=5)
         boton=Tk.Button(self.v, text='Encontrar la mejor ruta: ', command=lambda: self.Grafo_ruta(i_name.get(), i2_name.get())); boton.pack(pady=5)
     def csv(self):
-        with open('Centros.csv', 'r') as archivo:
+        with open('centros.csv', 'r') as archivo:
             f=archivo.readlines()
             nodos=set()         # Cojunto para evitar nodos duplicados
             for i in f[1:]:     # split(','): Divide cada dato separados por comas y los guarda en una lista
