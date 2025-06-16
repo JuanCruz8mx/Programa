@@ -22,6 +22,7 @@ Antes de ejecutar el programa, asegúrate de tener instalado Python 3 y las sigu
 pip install tkinter
 pip install networkx
 pip install matplotlib
+pip install json
 ```
 
 ## 🚀 Cómo usarlo
