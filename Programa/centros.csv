@@ -1,7 +1,7 @@
 N1, N2, Distancia, Capacidad, Tiempo
-CDMX,EDOMEX,8,500,8
-EDOMEX,HGO,5,800,5
+ciudad de mexico,estado de mexico,8,500,8
+estado de mexico,HGO,5,800,5
 HGO,PUE,8,600,5
 PUE,VER,5,600,6
 VER,HGO,6,500,5
-PUE,EDOMEX,4,1500,5
+PUE,estado de mexico,4,1500,5

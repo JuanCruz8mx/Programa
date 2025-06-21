@@ -39,7 +39,7 @@ cedis={
 
 }
 
-nombre_de_archivo="centros de distribucion BIMBO en México"
+nombre_de_archivo="centros.json"
 try:
     with open(nombre_de_archivo,'w', encoding='utf-8') as archivo_json:
         json.dump(cedis, archivo_json, indent=4, ensure_ascii=False)
