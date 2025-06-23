@@ -1,7 +1,33 @@
-N1, N2, Distancia, Capacidad, Tiempo
-ciudad de mexico,estado de mexico,8,500,8
-estado de mexico,HGO,5,800,5
-HGO,PUE,8,600,5
-PUE,VER,5,600,6
-VER,HGO,6,500,5
-PUE,estado de mexico,4,1500,5
+N1, N2, Distancia, Capacidad, Tiempo,trasporte,cede,cede2
+ciudad de mexico,estado de mexico,8,500,8,carretera,metropolitano en azcapotzalco,toluca
+estado de mexico,hidalgo,5,800,5,carretera,toluca,pachuca
+hidalgo,puebla,8,600,5,carretera,pachuca,puebla
+puebla,veracruz,5,600,6,carretera,puebla,veracruz
+veracruz,hidalgo,6,500,5,carretera,coatzacoalcos,pachuca
+puebla,estado de mexico,4,1500,5,carretera,puebla,toluca
+hidalgo, nuevo leon,8,1000,8,carretera,pachuca,monterrey
+yucatan,quintana roo,2,500,3,carretera,merida,cancun
+tabasco,oaxaca,4,500,6,carretera,villa hermosa,oaxaca
+veracruz,tabasco,3,600,4,carretera,veracruz,villa hermosa
+chiapas,oaxaca,5,800,5,carretera,tapachula,oaxaca
+chiapas,veracruz,7,600,6,carretera,tapachula,coatzacoalcos
+chiapas,yucatan,10,1500,9,carretera,tapachula,merida
+guerrero,oaxaca,6,1500,5,carretera,chipalcingo,oaxaca
+guerrero,puebla,5,1400,6,carretera,acapulco,puebla
+michoacan,guerrero,6,1500,6,carretera,morelia,acapulco
+michoacan,colima,2,800,3,carretera,morelia,colima
+jalisco,michoacan,5,1800,6,carretera,guadalajara,morelia
+guanajuato,jalisco,5,1500,9,carretera,leon,guadalajara
+guanajuato,michoacan,6,450,6,carretera,leon,morelia
+hidalgo,queretaro,4,800,3,carretera,pachuca,queretaro
+queretaro,guanajuato,3,500,2,carretera,queretaro,leon
+tamaulipas,veracruz,16,1500,8,carretera,reyona,veracruz
+nuevo leon,tamaulipas,6,1500,8,carretera,monterrey,reyona
+coahuila,nuevo leon,8,1000,6,carretera,saltillo,monterrey
+aguas calientes,jalisco,6,1000,4,carretera,aguas calientes,guadalajara
+sonora,nuevo leon,25,2000,12,carretera,hermosillo,monterrey
+baja california,sonora,6,1200,8,carretera,tijuana,hermosillo
+sonora,jalisco,38,3000,15,carretera,cd juarez/cd obregon,guadalajara
+ciudad de mexico,hidalgo,32,8,25,aereo,metropolitano en azcapotzalco,pachuca
+ciudad de mexico,veracruz
+ciudad de mexico,
